@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="organized class website">
+		<meta name="keywords" content="webpage detailed">
+		<meta name="author" content="Manisha and Nishitha">
+		<title>COMPUTER SCIENCE DEPARTMENT | WELCOME</title>
+		<style type="text/css">
+		body{
+			font: 15px/1.5 Arial, Helvetica, sans-serif;
+			padding:0px;
+			margin:0px;
+			background-color:#f4f4f4;
+		}
+		div {
+            font-size-adjust: 0.58;
+        }
+        h1 {
+         font-size: 20px;
+        }
+		h4 {
+    font-size: 13px;
+}
+		.container{
+		
+			width:80%;
+			margin:auto;
+			float: left
+			overflow:hidden;
+		}
+		.title{
+			height:300px;
+		    width:600px;
+			align:center;
+		}
+		ul{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			overflow:hidden;
+		}
+		img{
+			display:block;
+			margin: 0 auto 0 auto;
+			max-width:100%;
+		}
+		header{
+			background:#35424a;
+			color:#ffffff;
+			padding-top:30px;
+			min-height:90px;
+			border-bottom:#e8491d 3px solid;
+		}
+		header a{
+			color: #ffffff;
+			text-decoration:none;
+			text_transform: uppercase;
+			font_size:16px;
+		}
+		
+		header li{
+			float: left;
+			display:inline;
+			padding: 8px; 
+		}
+		
+		header #branding{
+			float:left;
+		}
+		header #branding h1{
+			margin:0;
+		}
+		header nav{
+			float:right;
+			margin-top: 10px;
+		}
+		header .highlight, header .current a{
+			color: #e8491d;
+			font-weight: bold;
+		}
+		header a:hover{
+			color:#cccccc;
+			font-weight:bold;
+		}
+		
+		
+		
+		footer{
+			padding:10px;
+			margin-top:20px;
+			color:#ffffff;
+			background-color:#e8491d;
+			text-align: center;
+		}
+		
+		#boxes{
+			margin-top:20px;
+		}
+		#boxes .box{
+			float:left;
+			text-align: center;
+			width:30%;
+			padding:10px;
+		}
+		
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">COLLEGE INFORMATION SYSTEM</span></h1>
+					<h4>Batch: 2015 CSE </h4>
+					
+					
+				</div>
+				<nav>
+
+					
+					<a href="index.html"><font color='#e8491d'>homepage!</font></a>
+					
+					
+				</nav>
+			</div>
+		</header>
+		
+		
+		<marquee><font color="red"></font></marquee>
+		
+		<section id="showcase">
+		
+	
+		
+	
+			<div class="container">
+				<center><h1>ASSIGNMENTS</h1>
+				<p>
+2015-2019 at Sir MVIT. Supposed to be the most happening time of our semester. Good luck finishing them!</center>
+  <table>
+  <tr>
+    <th>SUBJECT</th>
+    <th>ASSIGNMENTS</th>
+    
+  </tr>
+  <tr>
+    <td>Web Technology</td>
+    <td>Deadline over</td>
+   
+  </tr>
+  <tr>
+    <td>Advanced Computer Architecture</td>
+    <td>Deadline over  </td>
+    
+  </tr>
+  <tr>
+    <td>Machine Learning</td>
+    <td>Deadline over</td>
+    
+  </tr>
+  <tr>
+    <td>Information and Network Security</td>
+    <td>Deadline over</td>
+      </tr>
+  <tr>
+    <td>Unix System Programming</td>
+    <td>Deadline over</td>
+    
+  </tr>
+
+  <tr>
+    <td>Digital Image Processing</td>
+    <td>Deadline over</td>
+   </tr>
+   <tr>
+    <td>Storage Area Networks</td>
+    <td>Deadline over</td>
+   </tr>
+   <tr>
+    <td>Web Technology Lab</td>
+    <td><a href="weblab.pdf"> All programs</a></td>
+   </tr>
+   <tr>
+    <td>Machine Learning Lab</td>
+    <td><a href="mllab.pdf">All programs</a></td>
+   </tr>
+</table>
+
+<script>
+function openSection(evt, sectionName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(sectionName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+	
+		
+			</div>
+		</section>
+		
+		<img class="title" src=colg.jpg>
+		<footer>
+		
+			<p>Class page, Copyright &copy; 2017</p>
+		</footer>
+		
+	</body>
+</html>
